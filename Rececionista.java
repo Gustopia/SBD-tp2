@@ -1,5 +1,5 @@
 public class Rececionista {    
-        private static void menuRececionista() {
+        public static void menuRececionista() {
         boolean back = false;
         
         while (!back) {
