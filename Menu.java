@@ -1,3 +1,9 @@
+import util.ReadIntInput;
+import perfilUtilizador.Gerente;
+import perfilUtilizador.Rececionista;
+import perfilUtilizador.Tutor;
+import perfilUtilizador.Veterinario;
+
 public class Menu {
     private static boolean running = true;
 

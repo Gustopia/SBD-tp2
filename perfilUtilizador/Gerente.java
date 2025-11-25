@@ -1,3 +1,6 @@
+package perfilUtilizador;
+import util.ReadIntInput;
+
 public class Gerente {
     public static void menuGerente() {
         boolean back = false;

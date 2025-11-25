@@ -1,3 +1,6 @@
+package perfilUtilizador;
+import util.ReadIntInput;
+
 public class Tutor {
      public static void menuTutor() {
         boolean back = false;

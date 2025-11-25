@@ -1,3 +1,6 @@
+package perfilUtilizador;
+import util.ReadIntInput;
+
 public class Veterinario {
      public static void menuVeterinario() {
         boolean back = false;

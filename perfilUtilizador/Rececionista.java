@@ -1,3 +1,6 @@
+package perfilUtilizador;
+import util.ReadIntInput;
+
 public class Rececionista {    
         public static void menuRececionista() {
         boolean back = false;
