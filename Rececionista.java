@@ -14,11 +14,11 @@ public class Rececionista {
             switch (choice) {
                 case 1:
                     System.out.println("\n>>> Executando: Criar/Atualizar dados dos tutores e dos respetivos animais incluindo fotografia");
-                    // Implementar funcionalidade 1.1 aqui
+                    criarAtualizar();
                     break;
                 case 2:
                     System.out.println("\n>>> Executando: Agendar/Cancelar/Reagendar a prestação de serviços veterinários para um determinado animal");
-                    // Implementar funcionalidade 1.2 aqui
+                    agendarCancelar();
                     break;
                 case 0:
                     back = true;
@@ -27,5 +27,13 @@ public class Rececionista {
                     System.out.println("Opção inválida! Tente novamente.");
             }
         }
+    }
+
+    // 1.1
+    private static void criarAtualizar(){
+    }
+
+    // 1.2
+    private static void agendarCancelar(){
     }
 }
