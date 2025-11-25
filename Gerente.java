@@ -20,35 +20,35 @@ public class Gerente {
             switch (choice) {
                 case 1:
                     System.out.println("\n>>> Executando: Criar/Atualizar dados dos médicos veterinários, tutores e respetivos animais");
-                    // Implementar funcionalidade 4.1 aqui
+                    criarAtualizar();
                     break;
                 case 2:
                     System.out.println("\n>>> Executando: Atualizar horário com supervisão de veterinários");
-                    // Implementar funcionalidade 4.2 aqui
+                    atualizarHorario();
                     break;
                 case 3:
                     System.out.println("\n>>> Executando: Exportar ficha e histórico clínicos para XML/JSON");
-                    // Implementar funcionalidade 4.3 aqui
+                    exportarFicha();
                     break;
                 case 4:
                     System.out.println("\n>>> Executando: Importar ficha e histórico clínicos de XML/JSON");
-                    // Implementar funcionalidade 4.4 aqui
+                    importarFicha();
                     break;
                 case 5:
                     System.out.println("\n>>> Executando: Lista de animais que ultrapassaram a expectativa de vida");
-                    // Implementar funcionalidade 4.5 aqui
+                    listaAnimais();
                     break;
                 case 6:
                     System.out.println("\n>>> Executando: Lista de tutores com animais com excesso de peso");
-                    // Implementar funcionalidade 4.6 aqui
+                    listaTutores();
                     break;
                 case 7:
                     System.out.println("\n>>> Executando: Tutores com mais agendamentos cancelados no último trimestre");
-                    // Implementar funcionalidade 4.7 aqui
+                    agendamentosCancelados();
                     break;
                 case 8:
                     System.out.println("\n>>> Executando: Quantidade de agendamentos por serviço na próxima semana");
-                    // Implementar funcionalidade 4.8 aqui
+                    numAgendametos();
                     break;
                 case 0:
                     back = true;
@@ -57,5 +57,37 @@ public class Gerente {
                     System.out.println("Opção inválida! Tente novamente.");
             }
         }
+    }
+
+     // 4.1
+    private static void criarAtualizar(){
+    }
+    
+    // 4.2
+     private static void atualizarHorario(){
+    }
+
+    // 4.3
+     private static void exportarFicha(){
+    }
+    
+    // 4.4
+     private static void importarFicha(){
+    }
+    
+    // 4.5
+     private static void listaAnimais(){
+    }
+    
+    // 4.6
+     private static void listaTutores(){
+    }
+
+    // 4.7
+     private static void agendamentosCancelados(){
+    }
+
+    // 4.8
+     private static void numAgendametos(){
     }
 }

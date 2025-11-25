@@ -14,11 +14,11 @@ public class Tutor {
             switch (choice) {
                 case 1:
                     System.out.println("\n>>> Executando: Consultar ficha e histórico clínicos dos animais incluindo serviços agendados");
-                    // Implementar funcionalidade 3.1 aqui
+                    consultarFicha();
                     break;
                 case 2:
                     System.out.println("\n>>> Executando: Agendar/Reagendar/Rejeitar consultas para animais com ficha clínica");
-                    // Implementar funcionalidade 3.2 aqui
+                    agendarReagendar();
                     break;
                 case 0:
                     back = true;
@@ -27,5 +27,13 @@ public class Tutor {
                     System.out.println("Opção inválida! Tente novamente.");
             }
         }
+    }
+
+     // 3.1
+    private static void consultarFicha(){
+    }
+
+    // 3.2
+    private static void agendarReagendar(){
     }
 }

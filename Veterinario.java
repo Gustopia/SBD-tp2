@@ -18,27 +18,27 @@ public class Veterinario {
             switch (choice) {
                 case 1:
                     System.out.println("\n>>> Executando: Implementar controlo autocomplete para encontrar fichas de animais");
-                    // Implementar funcionalidade 2.1 aqui
+                    autoComplete();
                     break;
                 case 2:
                     System.out.println("\n>>> Executando: Consultar registo clínico de um animal com idade e escalão etário");
-                    // Implementar funcionalidade 2.2 aqui
+                    consultarRegistoClinico();
                     break;
                 case 3:
                     System.out.println("\n>>> Executando: Visualizar árvore genealógica de um animal");
-                    // Implementar funcionalidade 2.3 aqui
+                    visualizarArvore();
                     break;
                 case 4:
                     System.out.println("\n>>> Executando: Lista de chamada dos animais com agendamento");
-                    // Implementar funcionalidade 2.4 aqui
+                    listaChamada();
                     break;
                 case 5:
                     System.out.println("\n>>> Executando: Atualizar histórico clínico do animal");
-                    // Implementar funcionalidade 2.5 aqui
+                    atualizarHistorico();   
                     break;
                 case 6:
                     System.out.println("\n>>> Executando: Agendar/Cancelar serviços veterinários");
-                    // Implementar funcionalidade 2.6 aqui
+                    agendarCancelar();
                     break;
                 case 0:
                     back = true;
@@ -47,5 +47,29 @@ public class Veterinario {
                     System.out.println("Opção inválida! Tente novamente.");
             }
         }
+    }
+
+    // 2.1
+    private static void autoComplete(){
+    }
+    
+    // 2.2
+     private static void consultarRegistoClinico(){
+    }
+
+    // 2.3
+     private static void listaChamada(){
+    }
+    
+    // 2.4
+     private static void visualizarArvore(){
+    }
+    
+    // 2.5
+     private static void atualizarHistorico(){
+    }
+    
+    // 2.6
+     private static void agendarCancelar(){
     }
 }
