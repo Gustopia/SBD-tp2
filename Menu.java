@@ -16,7 +16,7 @@ public class Menu {
 
     private static void showMainMenu() {
         System.out.println("\n=== SISTEMA VETERINÁRIO ===");
-        System.out.println("1. Rececionistaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+        System.out.println("1. Rececionista");
         System.out.println("2. Veterinário");
         System.out.println("3. Tutor");
         System.out.println("4. Gerente");
